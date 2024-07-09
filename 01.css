@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent{
+  background-color: #23424a;
+  padding: 50px;
+
+  /* NOT RECOMMENDED */
+  width: 900px; /* 'px' unit removes responsiveness; default width on most boxes is '100%' */
+
+  /* PREFERRED */
+  width: 80%; /* '%'unit takes advantage of the default responsive behavior of most boxes */
+
+  margin: 0 auto;
+}
+
+.child {
+  background-color: #38cfd9;
+
+  /* avoid using heights on 'content' boxes */
+  height: 250px;
+}

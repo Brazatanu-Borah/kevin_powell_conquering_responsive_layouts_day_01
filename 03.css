@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #23424a;
+  color: #fff;
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding: 5em;  /* 5 x 16(default font size)px = 80px */
+
+
+  /* NOT RECOMMENDED */
+  height: 300px;
+
+
+  /* MAKE USE OF DEFAULT RESPONSIVE BEHAVIOR OF HTML BOXES */
+
+  /* let the content decide what height is required by it; by default height of boxes becomes taller as content inside it increases */
+
+  height: auto; /* OR better still DON'T give any height */
+  
+}
